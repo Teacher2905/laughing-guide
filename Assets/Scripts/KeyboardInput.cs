@@ -1,12 +1,14 @@
 ﻿using UnityEngine;
 
-public class KeyboardInput : MonoBehaviour
+public static class KeyboardInput
 {
-    private void Update()
+    public static float GetHorizontalDirection()
     {
-        var horizontal = Input.GetAxisRaw("Horizontal");
-        var vertical = Input.GetAxisRaw("Vertical");
+        return Input.GetAxisRaw("Horizontal");
+    }
 
-        Debug.Log(horizontal);
+    public static float GetVerticalDirection()
+    {
+        return Input.GetAxisRaw("Vertical");
     }
 }

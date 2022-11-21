@@ -11,4 +11,9 @@ public static class KeyboardInput
     {
         return Input.GetAxisRaw("Vertical");
     }
+
+    public static bool IsJumpPressed()
+    {
+        return Input.GetKeyDown(KeyCode.Space);
+    }
 }

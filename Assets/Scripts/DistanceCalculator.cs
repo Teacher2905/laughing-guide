@@ -7,6 +7,7 @@ public class DistanceCalculator : MonoBehaviour
 
     private void Update()
     {
-        Distance = (_target.position - transform.position).magnitude;
+        if (_target != null)
+            Distance = (_target.position - transform.position).magnitude;
     }
 }

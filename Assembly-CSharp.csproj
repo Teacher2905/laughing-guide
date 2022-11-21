@@ -60,9 +60,12 @@
     <Compile Include="Assets\Scripts\KeyboardInput.cs" />
     <Compile Include="Assets\Scripts\WalkMovement.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\IMovement.cs" />
     <Compile Include="Assets\Scripts\DistanceCalculator.cs" />
+    <Compile Include="Assets\Scripts\IMovement.cs" />
     <Compile Include="Assets\Scripts\DistanceDisplayer.cs" />
+    <Compile Include="Assets\Scripts\PlayerJump.cs" />
+    <Compile Include="Assets\Scripts\EnemyFollower.cs" />
+    <Compile Include="Assets\Scripts\EnemyRotateToPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

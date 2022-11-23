@@ -353,14 +353,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CameraFollow.cs"
-"Assets/Scripts/DistanceCalculator.cs"
-"Assets/Scripts/DistanceDisplayer.cs"
-"Assets/Scripts/EnemyFollower.cs"
-"Assets/Scripts/EnemyRotateToPlayer.cs"
 "Assets/Scripts/IMovement.cs"
 "Assets/Scripts/KeyboardInput.cs"
+"Assets/Scripts/MachineFactory.cs"
 "Assets/Scripts/PlayerJump.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/PlayerResources.cs"
+"Assets/Scripts/TeleportEnter.cs"
 "Assets/Scripts/WalkMovement.cs"
 -langversion:9.0
 
